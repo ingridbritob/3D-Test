@@ -59,7 +59,7 @@ def plotSquareLine(x,y,z,xg,yg,zg,hpx,hpy):
     plt.plot([xg[3],xg[0]],[yg[3],yg[0]],color='g')
 
 
-     #-----la distancia entre puntos  
+     #-----calculamos la distancia entre puntos  Formula d=sqrt((x1-x0)**2 + (y1-y0)**2)
     d01=( (x[0]-x[1])**2 + (y[0]-y[1])**2 )**(0.5)
     d12=( (x[1]-x[2])**2 + (y[1]-y[2])**2 )**(1/2)
     d20=( (x[0]-x[2])**2 + (y[0]-y[2])**2 )**(1/2)
